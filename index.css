@@ -1,0 +1,88 @@
+body,ul,li,a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix::before,.clearfix::after{
+    content:"";
+    display: block;
+}
+.clearfix::after{
+    clear: both;
+}
+.wrapper{
+    width: 1075px;
+    height: 594px;
+    background-image: url(./img/hero_static__d85kqoc2fumq_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 30px auto 0;
+    border:1px solid #ccc;
+    text-align: center;
+
+}
+.screen{
+    width: 720px;
+    height: 460px;
+    background: rgb(255, 255, 255);
+    margin: 25px auto 0;
+    overflow: hidden;
+}
+.screen .main{
+    position: relative;
+    width: 100%;
+}
+.screen .video{
+    width: 100%;
+}
+
+.barrage{
+    display: inline-block;
+    margin: 20px 0 0 0;
+}
+.barrage .barrage-input{
+    box-sizing: border-box;
+    float: left;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    outline: none;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.barrage .btn{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: chocolate;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    user-select: none;
+}
+.barrage .btn:hover{
+    color: coral;
+    background: rgb(121, 255, 68);
+    font-weight: bold;
+}
+
+.main .subtitle{
+    position: absolute;
+    left:720px;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
